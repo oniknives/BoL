@@ -25,8 +25,8 @@ local CastableItems = {
 function UpdateScript()
 local Script = {}
   Script.Host = "raw.githubusercontent.com"
-  Script.VersionPath = "/LucasRPC/BoL-Scripts/master/version/Mystique.version"
-  Script.Path = "/LucasRPC/BoL-Scripts/master/Mystique.lua"
+  Script.VersionPath = "/oniknives/BoL/master/version/Knives%20Warwick.version"
+  Script.Path = "/oniknives/BoL/master/Knives%20Warwick.lua"
   Script.SavePath = SCRIPT_PATH .. FileName
   Script.CallbackUpdate = function(NewVersion, OldVersion) PrintMessage("Updated to (" .. NewVersion .. "). Please reload script.") end
   Script.CallbackNoUpdate = function(OldVersion) PrintMessage("No Updates Found.") end
